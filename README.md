@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+https://ciamac-da.github.io/react-simple-task-1/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    EN
+         
+        0- Create a React App. Make 2 new Folders in src called components and containers, put App.css, Appjs and App.test.js file inside of containers folder.
 
-## Available Scripts
+        1- Create an input field (in App component) with a change listener which outputs the length of the   entered text below it (e.g. in a paragraph). Use Class-Components in App.js 
+          
+        2- Create a new component (=> ValidationComponent) in components folder which receives the text length as a prop.
+         
+        3- Inside the ValidationComponent, either output "Text too short" or "Text long enough" depending on   the text length (e.g. take 5 as a minimum length).
+        
+        4- Create another component (=> CharComponent) in  components folder and style it as an inline box (=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black).
 
-In the project directory, you can run:
+        5- Render a list of CharComponents where each CharComponent receives a different letter of the entered text (in the initial input field) as a prop.
+         
+        6- When you click a CharComponent, it should be removed from the entered text.
 
-### `yarn start`
+        7- Try to make a new Branch and refactor Class-Component to a Functional-Compenent in App.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+        Hint: Keep in mind that JavaScript strings are basically arrays!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+         DE 
+          0- Baue eine React App. Erstelle  2 neue Ordner in src, die als components und containers bezeichnet werden, und setze  App.css, App.js und App.test.js-Datei im containders-Ordner.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+          1- Erstell  ein Eingabefeld (in der App-Komponente) mit einem Änderungslistener, der die Länge des darunter eingegebenen Textes ausgibt (z. B. in einem Absatz). Verwende  Klassenkomponenten in App.js.
 
-### `yarn build`
+          2- Erstell eine neue Komponente (=> ValidationComponent) im Komponentenordner, die die Textlänge als Requisite erhält.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+          3- Gib in der ValidationComponent je nach Textlänge entweder "Text zu kurz" oder "Text lang genug" aus (z. B. 5 als Mindestlänge).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+          4- Erstell eine weitere Komponente (=> CharComponent) im Komponentenordner und formatiere sie als inline-box (=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+          5- Rendern#e eine Liste von CharComponents, wobei jede CharComponent einen anderen Buchstaben des eingegebenen Textes (im anfänglichen Eingabefeld) als Requisite erhält.
 
-### `yarn eject`
+          6- Wenn du auf eine CharComponent klickst, sollte diese aus dem eingegebenen Text entfernt werden.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+          7- Versuch einen neuen Branch zu bauen, und versuch mal in App.js eine Klassenkomponente zu einer Funktionskomponente umustellen.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+          Hinweis: Beachten Sie, dass JavaScript-Zeichenfolgen im Grunde genommen Arrays sind!
