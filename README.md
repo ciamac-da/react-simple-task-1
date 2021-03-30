@@ -39,3 +39,4 @@ https://ciamac-da.github.io/react-simple-task-1/
           7- Versuch einen neuen Branch zu bauen, und versuch mal in App.js eine Klassenkomponente zu einer Funktionskomponente umustellen.
 
           Hinweis: Beachten Sie, dass JavaScript-Zeichenfolgen im Grunde genommen Arrays sind!
+          
