@@ -17,6 +17,7 @@ const App = () => {
     return setState(updatedText);
   };
 
+  
   const charList = state.split("").map((char, index) => {
     return (
       <Char
