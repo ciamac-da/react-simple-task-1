@@ -6,9 +6,9 @@ https://ciamac-da.github.io/react-simple-task-1/
 
         1- Create an input field (in App component) with a change listener which outputs the length of the   entered text below it (e.g. in a paragraph). Use Class-Components in App.js 
           
-        2- Create a new component (=> ValidationComponent) in components folder which receives the text length as a prop.
+        2- Create a new component (=> ValidationComponent) in components folder which receives the text length as a prop. For this component please use functional component.
          
-        3- Inside the ValidationComponent, either output "Text too short" or "Text long enough" depending on   the text length (e.g. take 5 as a minimum length).
+        3- Inside the Validation Component, either outpu  "There's no text",  "Text too short" , "Text long enough" and "Text too long" depending on the text length. 
         
         4- Create another component (=> CharComponent) in  components folder and style it as an inline box (=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black).
 
