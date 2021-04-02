@@ -35,6 +35,7 @@ class App extends Component {
         onChange={this.inputChangedHandler}
         value={this.state.userInput}
         type="text"
+        style={{textAlign:"center"}}
 
       />
       <p style={{fontSize:"24px", fontWeight:"bolder"}}>{this.state.userInput}</p>
