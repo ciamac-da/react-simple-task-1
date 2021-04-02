@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/react-simple-task-1/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/react-simple-task-1/static/js/main.c2591da3.chunk.js",
-    "main.js.map": "/react-simple-task-1/static/js/main.c2591da3.chunk.js.map",
-    "runtime-main.js": "/react-simple-task-1/static/js/runtime-main.386b73a5.js",
-    "runtime-main.js.map": "/react-simple-task-1/static/js/runtime-main.386b73a5.js.map",
-    "static/js/2.c211ffad.chunk.js": "/react-simple-task-1/static/js/2.c211ffad.chunk.js",
-    "static/js/2.c211ffad.chunk.js.map": "/react-simple-task-1/static/js/2.c211ffad.chunk.js.map",
-    "static/js/3.1992ce64.chunk.js": "/react-simple-task-1/static/js/3.1992ce64.chunk.js",
-    "static/js/3.1992ce64.chunk.js.map": "/react-simple-task-1/static/js/3.1992ce64.chunk.js.map",
+    "main.css": "/react-simple-task-1/static/css/main.64e1f0a2.chunk.css",
+    "main.js": "/react-simple-task-1/static/js/main.883fac31.chunk.js",
+    "main.js.map": "/react-simple-task-1/static/js/main.883fac31.chunk.js.map",
+    "runtime-main.js": "/react-simple-task-1/static/js/runtime-main.1fd1a1ec.js",
+    "runtime-main.js.map": "/react-simple-task-1/static/js/runtime-main.1fd1a1ec.js.map",
+    "static/js/2.e371f7db.chunk.js": "/react-simple-task-1/static/js/2.e371f7db.chunk.js",
+    "static/js/2.e371f7db.chunk.js.map": "/react-simple-task-1/static/js/2.e371f7db.chunk.js.map",
+    "static/js/3.b1dc4420.chunk.js": "/react-simple-task-1/static/js/3.b1dc4420.chunk.js",
+    "static/js/3.b1dc4420.chunk.js.map": "/react-simple-task-1/static/js/3.b1dc4420.chunk.js.map",
     "index.html": "/react-simple-task-1/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/react-simple-task-1/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.c211ffad.chunk.js.LICENSE.txt": "/react-simple-task-1/static/js/2.c211ffad.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/react-simple-task-1/static/media/logo.6ce24c58.svg"
+    "static/css/main.64e1f0a2.chunk.css.map": "/react-simple-task-1/static/css/main.64e1f0a2.chunk.css.map",
+    "static/js/2.e371f7db.chunk.js.LICENSE.txt": "/react-simple-task-1/static/js/2.e371f7db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.386b73a5.js",
-    "static/js/2.c211ffad.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c2591da3.chunk.js"
+    "static/js/runtime-main.1fd1a1ec.js",
+    "static/js/2.e371f7db.chunk.js",
+    "static/css/main.64e1f0a2.chunk.css",
+    "static/js/main.883fac31.chunk.js"
   ]
 }
