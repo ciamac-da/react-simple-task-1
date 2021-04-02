@@ -6,11 +6,11 @@ https://ciamac-da.github.io/react-simple-task-1/
 
         1- Create an input field (in App component) with a change listener which outputs the length of the   entered text below it (e.g. in a paragraph). Use Class-Components in App.js 
           
-        2- Create a new component (=> ValidationComponent) in components folder which receives the text length as a prop. For this component please use functional component.
+        2- Create a new component (=> Validation Component) in components folder which receives the text length as a prop. For this component please use functional component.
          
         3- Inside the Validation Component, either outpu  "There's no text",  "Text too short"(between 1 and 15) , "Text long enough"(bigger than 15 and less than 25) and "Text too long"(bigger than 25) depending on the text length. 
         
-        4- Create another component (=> CharComponent) in  components folder and style it as an inline box (=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black).
+        4- Create another component (=> Char Component) in  components folder and style it as an inline box (=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black, border-radius:10px).
 
         5- Render a list of CharComponents where each CharComponent receives a different letter of the entered text (in the initial input field) as a prop.
          
@@ -30,7 +30,7 @@ https://ciamac-da.github.io/react-simple-task-1/
 
           3- Gib in der ValidationComponent je nach Textlänge entweder "Text zu kurz" oder "Text lang genug" aus (z. B. 5 als Mindestlänge).
 
-          4- Erstell eine weitere Komponente (=> CharComponent) im Komponentenordner und formatiere sie als inline-box (=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black).
+          4- Erstell eine weitere Komponente (=> CharComponent) im Komponentenordner und formatiere sie als inline-box (=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black, border-radius:10px).
 
           5- Rendern#e eine Liste von CharComponents, wobei jede CharComponent einen anderen Buchstaben des eingegebenen Textes (im anfänglichen Eingabefeld) als Requisite erhält.
 

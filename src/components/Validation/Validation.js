@@ -3,10 +3,11 @@ import React from "react";
 
 const Validation = (props) => {
     
-    let validateText;
+    //let validateText;
+    let validateText= null
 
     if(props.inputLength > 25){
-      validateText =  "Text too long"
+      validateText =    "Text too long"
     }else if (props.inputLength <= 25 && props.inputLength > 15){
         validateText =  "Text long enough"
     }else if (props.inputLength <= 15 && props.inputLength > 0){
@@ -18,7 +19,7 @@ const Validation = (props) => {
     
     return ( 
     <div>
-      <p>{validateText}</p>
+      <p style={{fontSize:"20px"}}>{validateText}</p>
     </div> );
 }
  
