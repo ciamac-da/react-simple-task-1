@@ -8,7 +8,7 @@ https://ciamac-da.github.io/react-simple-task-1/
           
         2- Create a new component (=> ValidationComponent) in components folder which receives the text length as a prop. For this component please use functional component.
          
-        3- Inside the Validation Component, either outpu  "There's no text",  "Text too short" , "Text long enough" and "Text too long" depending on the text length. 
+        3- Inside the Validation Component, either outpu  "There's no text",  "Text too short"(between 1 and 15) , "Text long enough"(bigger than 15 and less than 25) and "Text too long"(bigger than 25) depending on the text length. 
         
         4- Create another component (=> CharComponent) in  components folder and style it as an inline box (=> display: inline-block, padding: 16px, text-align: center, margin: 16px, border: 1px solid black).
 
