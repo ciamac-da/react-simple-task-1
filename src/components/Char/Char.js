@@ -24,6 +24,7 @@ const Char = (props) => {
             borderRadius:"10px",
             backgroundColor:"white"
         }}
+        onClick={props.clicked}
         >
         {props.character}
         </div>

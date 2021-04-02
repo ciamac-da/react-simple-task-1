@@ -10,19 +10,29 @@ class App extends Component {
   }
 
 
-  changed = (event) => {
+  inputChangedHandler = (event) => {
     this.setState({userInput: event.target.value})
+  }
+
+  deleteInputCharHandler = (index) =>{
+  const text = this.state.userInput.split("")
+  text.splice(index, 1)
+  const updatedText = text.join("");
+  this.setState({userInput:updatedText})
   }
   
   render(){
-    const charList = this.state.userInput.split("").map(char =>{
-      return <Char character={char} />
+    const charList = this.state.userInput.split("").map((char, index)=>{
+      return <Char 
+      character={char}
+      clicked={()=> this.deleteInputCharHandler(index)}
+      key={index} />
     })
 
     return (
       <div className="App">
       <input
-        onChange={this.changed}
+        onChange={this.inputChangedHandler}
         value={this.state.userInput}
         type="text"
 
